@@ -17,10 +17,8 @@ fetch('https://pokeapi.co/api/v2/pokemon/charizard')
         purchaseLink:'https://www.ebay.com/i/362448040271?chn=ps'
 }
 
-const charzardCard = makePokemonCard(chariZard);
-container.appendchild(charzardCard);
-
-
+const charizardCard = makePokemonCard(chariZard);
+container.appendChild(charizardCard);
 })
 .catch(error => {
     console.log(error);
