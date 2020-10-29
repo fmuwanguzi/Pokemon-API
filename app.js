@@ -1,4 +1,4 @@
-const container = document.querySelector('container');
+const container = document.querySelector('.container');
 
 fetch('https://pokeapi.co/api/v2/pokemon/charizard')
 .then(response=>{
